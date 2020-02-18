@@ -1,0 +1,12 @@
+Commands to upload project folder to git command line:
+
+cd into the folder you need to upload in GitBash(Windows)
+git init
+git add .
+git commit -m "adding files"
+All the above steps to start a git repository
+To push the changes to git repository hosted with github, tell git to add a remote location and then push your committed files
+git remote add origin https://github.com/sanat94/reponame.git OR
+git remote add github https://github.com/username/reponame.git
+git push -u github master --- Gave error
+git push -f github master ---This worked
